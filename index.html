@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SitDownPlz</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="header bcg">
+    <div class="container">
+      <h1 class="visually-hidden">sitdownplz интернет магазин мебели</h1>
+      <div class="header__wrap">
+
+
+        <a class="wrap-tel" href="tel:+74958854547">
+          <svg class="svg-tel" width="18" height="18" viewBox="0 0 18 18" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M16.3425 12.0983C15.215 12.0983 14.1242 11.915 13.1067 11.585C12.7858 11.475 12.4283 11.5575 12.1808 11.805L10.7417 13.6108C8.1475 12.3733 5.71833 10.0358 4.42583 7.35L6.21333 5.82833C6.46083 5.57167 6.53417 5.21417 6.43333 4.89333C6.09417 3.87583 5.92 2.785 5.92 1.6575C5.92 1.1625 5.5075 0.75 5.0125 0.75H1.84083C1.34583 0.75 0.75 0.97 0.75 1.6575C0.75 10.1733 7.83583 17.25 16.3425 17.25C16.9933 17.25 17.25 16.6725 17.25 16.1683V13.0058C17.25 12.5108 16.8375 12.0983 16.3425 12.0983Z"
+              fill="#FF862F" />
+          </svg>+7 (495) 885-45-47</a>
+
+        <nav class="header__nav-support">
+          <ul class="header__support-list">
+            <li class="header__support-item">
+              <a href="#" class="header__support-item-link link-anim-grey">
+                О компании
+              </a>
+            </li>
+            <li class="header__support-item">
+              <a href="#" class="header__support-item-link link-anim-grey">
+                Гарантия и возврат
+              </a>
+            </li>
+            <li class="header__support-item">
+              <a href="#" class="header__support-item-link link-anim-grey">
+                Корпоративным клиентам
+              </a>
+            </li>
+            <li class="header__support-item">
+              <a href="#" class="header__support-item-link link-anim-grey">
+                Дизайн-решение
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <img class="logo" src="images/svg/logo.svg" alt="логотип садитесь пожалуйста">
+        <nav class="header__nav-menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Каталог
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Магазины
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Шоу-рум
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Доставка и&nbsp;оплата
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Дисконт
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-item-link" href="#">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <form class="header__form-search">
+          <label class="header__label-search">
+            <input class="header__input-search input-animation-search" placeholder="Я&nbsp;хочу купить..." type="search">
+            <svg class="header__form-search-lope" width="20" height="20" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="search">
+                <path id="Vector"
+                  d="M17.8187 16.0625L14.607 13.3156C15.5516 12.0945 16.0625 10.6016 16.0625 9.03125C16.0625 7.15156 15.3289 5.38906 14.0023 4.06016C12.6758 2.73125 10.9086 2 9.03125 2C7.15391 2 5.38672 2.73359 4.06016 4.06016C2.73125 5.38672 2 7.15156 2 9.03125C2 10.9086 2.73359 12.6758 4.06016 14.0023C5.38672 15.3312 7.15156 16.0625 9.03125 16.0625C10.6016 16.0625 12.0922 15.5516 13.3133 14.6094L16.5249 17.3539C16.5428 17.3718 16.564 17.3859 16.5873 17.3956C16.6106 17.4053 16.6356 17.4102 16.6609 17.4102C16.6861 17.4102 16.7111 17.4053 16.7344 17.3956C16.7578 17.3859 16.7789 17.3718 16.7968 17.3539L17.8187 16.3344C17.8365 16.3165 17.8507 16.2953 17.8604 16.272C17.87 16.2487 17.875 16.2237 17.875 16.1984C17.875 16.1732 17.87 16.1482 17.8604 16.1249C17.8507 16.1015 17.8365 16.0803 17.8187 16.0625ZM12.7438 12.7438C11.75 13.7352 10.4328 14.2812 9.03125 14.2812C7.62969 14.2812 6.3125 13.7352 5.31875 12.7438C4.32734 11.75 3.78125 10.4328 3.78125 9.03125C3.78125 7.62969 4.32734 6.31016 5.31875 5.31875C6.3125 4.32734 7.62969 3.78125 9.03125 3.78125C10.4328 3.78125 11.7523 4.325 12.7438 5.31875C13.7352 6.3125 14.2812 7.62969 14.2812 9.03125C14.2812 10.4328 13.7352 11.7523 12.7438 12.7438Z"
+                  fill="#999999" />
+              </g>
+            </svg>
+
+          </label>
+          <button class="header__search-btn" aria-label="начать поиск" type="submit">
+            <svg class="svg-search svg-anim-arrow-search" width="22" height="22" viewBox="0 0 22 22" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_933)">
+                <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clippath>
+                  <rect width="22" height="22" fill="none" />
+                </clippath>
+              </defs>
+            </svg>
+
+          </button>
+
+        </form>
+        <div class="header__user-wrap">
+          <a href="#" class="header__user" aria-label="мой профиль">
+            <svg class="header__user-svg" width="26" height="28" viewBox="0 0 26 28" fill="none" 
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="header__user">
+                <path id="vector_1"
+                  d="M24.98 22.8503C24.3278 21.2785 23.3813 19.8508 22.1933 18.6467C21.0089 17.4392 19.6059 16.4764 18.0617 15.8116C18.0478 15.8045 18.034 15.801 18.0202 15.794C20.1742 14.2111 21.5744 11.6327 21.5744 8.72362C21.5744 3.90452 17.7367 0 13 0C8.26333 0 4.42559 3.90452 4.42559 8.72362C4.42559 11.6327 5.82585 14.2111 7.97982 15.7975C7.96599 15.8045 7.95216 15.808 7.93833 15.8151C6.38941 16.4799 4.99952 17.4332 3.80671 18.6503C2.61981 19.8553 1.67349 21.2827 1.02003 22.8538C0.37806 24.3918 0.0318323 26.0409 8.64563e-05 27.7116C-0.000836348 27.7491 0.00563604 27.7864 0.0191224 27.8214C0.0326088 27.8564 0.0528363 27.8882 0.0786128 27.9151C0.104389 27.942 0.135194 27.9633 0.16921 27.9779C0.203227 27.9925 0.239768 28 0.27668 28H2.35113C2.50326 28 2.62427 27.8769 2.62773 27.7256C2.69688 25.01 3.76868 22.4668 5.66335 20.5392C7.62371 18.5447 10.2271 17.4472 13 17.4472C15.7729 17.4472 18.3763 18.5447 20.3367 20.5392C22.2313 22.4668 23.3031 25.01 23.3723 27.7256C23.3757 27.8804 23.4967 28 23.6489 28H25.7233C25.7602 28 25.7968 27.9925 25.8308 27.9779C25.8648 27.9633 25.8956 27.942 25.9214 27.9151C25.9472 27.8882 25.9674 27.8564 25.9809 27.8214C25.9944 27.7864 26.0008 27.7491 25.9999 27.7116C25.9653 26.0301 25.6231 24.3945 24.98 22.8503ZM13 14.7739C11.413 14.7739 9.91943 14.1442 8.79577 13.001C7.67211 11.8578 7.05323 10.3382 7.05323 8.72362C7.05323 7.10905 7.67211 5.58945 8.79577 4.44623C9.91943 3.30301 11.413 2.67337 13 2.67337C14.587 2.67337 16.0806 3.30301 17.2042 4.44623C18.3279 5.58945 18.9468 7.10905 18.9468 8.72362C18.9468 10.3382 18.3279 11.8578 17.2042 13.001C16.0806 14.1442 14.587 14.7739 13 14.7739Z"
+                  fill="#A65CF0" />
+              </g>
+            </svg>
+          </a>
+          <a href="#"  class="header__basket"  aria-label="корзина выбраных товаров">
+            <span class="header__basket-number">0</span>
+            <svg class="header__basket-svg" width="30" height="28" viewBox="0 0 30 28" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path id="vector"
+                d="M28.8162 19.8503H8.90202L9.90191 17.7365L26.5154 17.7052C27.0772 17.7052 27.5588 17.2887 27.6591 16.7125L29.9599 3.34598C30.0201 2.99541 29.9298 2.63444 29.7091 2.36023C29.6 2.22528 29.4639 2.11658 29.3103 2.04166C29.1567 1.96674 28.9892 1.9274 28.8195 1.92637L7.68476 1.85348L7.50418 0.971861C7.39048 0.40957 6.90224 0 6.34712 0H1.18047C0.86739 0 0.567133 0.129087 0.345752 0.358864C0.124371 0.588641 0 0.900285 0 1.22524C0 1.55019 0.124371 1.86184 0.345752 2.09161C0.567133 2.32139 0.86739 2.45048 1.18047 2.45048H5.3907L6.17991 6.34486L8.12284 16.1086L5.62145 20.3466C5.49155 20.5286 5.4133 20.7446 5.39557 20.9704C5.37784 21.1961 5.42134 21.4225 5.52112 21.6239C5.72177 22.0369 6.12641 22.2973 6.57452 22.2973H8.67462C8.2269 22.9145 7.98508 23.6662 7.98573 24.4388C7.98573 26.4034 9.52402 28 11.4168 28C13.3096 28 14.8478 26.4034 14.8478 24.4388C14.8478 23.6648 14.6004 22.9116 14.159 22.2973H19.5463C19.0986 22.9145 18.8568 23.6662 18.8574 24.4388C18.8574 26.4034 20.3957 28 22.2885 28C24.1812 28 25.7195 26.4034 25.7195 24.4388C25.7195 23.6648 25.4721 22.9116 25.0307 22.2973H28.8195C29.4683 22.2973 30 21.7489 30 21.072C29.9981 20.7474 29.8725 20.4368 29.6507 20.2079C29.4289 19.979 29.1289 19.8504 28.8162 19.8503ZM8.17635 4.26925L27.4317 4.33519L25.5456 15.2964L10.4202 15.3242L8.17635 4.26925ZM11.4168 25.5356C10.8349 25.5356 10.36 25.0428 10.36 24.4388C10.36 23.8349 10.8349 23.342 11.4168 23.342C11.9987 23.342 12.4735 23.8349 12.4735 24.4388C12.4735 24.7297 12.3622 25.0087 12.164 25.2144C11.9658 25.4201 11.6971 25.5356 11.4168 25.5356ZM22.2885 25.5356C21.7066 25.5356 21.2317 25.0428 21.2317 24.4388C21.2317 23.8349 21.7066 23.342 22.2885 23.342C22.8704 23.342 23.3452 23.8349 23.3452 24.4388C23.3452 24.7297 23.2339 25.0087 23.0357 25.2144C22.8375 25.4201 22.5687 25.5356 22.2885 25.5356Z"
+                fill="#A65CF0" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrap">
+          <h2 class="hero__text">Скидка 15% на первую покупку</h2>
+          <button class="hero__btn btn-global-bcg">Получить!</button>
+        </div>
+      </div>
+    </section>
+    <section class="section spec">
+      <div class="container">
+        <h2 class="global-page ">Специальные предложения</h2>
+        <ul class="spec__list">
+          <li class="spec__item spec__item-1">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 9 000
+            </span>
+            <img class="card__global-img spec__img" src="images/spec_offer/armchair-x-24.png" alt="кресло х-24">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Кресло&nbsp;велюровое<br>”X-24”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">15&nbsp;990&nbsp;руб</p>
+                <p class="spec__price-noactul">24&nbsp;990&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+          </article>
+          </li>
+          <li class="spec__item spec__item-b spec__item-2">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 10 000
+            </span>
+            <img class="card__global-img spec__img " src="images/spec_offer/sofa-z-44.png" alt="Дииван тканевый z-44">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Диван&nbsp;тканевый<br>”Z-44”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">22&nbsp;990&nbsp;руб</p>
+                <p class="spec__price-noactul">32&nbsp;990&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+            </article>
+          </li>
+          
+          <li class="spec__item spec__item-3">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 600
+            </span>
+            <img class="card__global-img spec__img" src="images/spec_offer/Clock-quartz-23.png" alt="Будильник Quartz-23">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Будильник<br>”Quartz-23”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">1&nbsp;290&nbsp;руб</p>
+                <p class="spec__price-noactul">1&nbsp;890&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+            </article>
+          </li>
+
+          <li class="spec__item spec__item-4">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 300
+            </span>
+            <img class="card__global-img spec__img" src="images/spec_offer/bust.png" alt="Мини-скульптура Oh my deer">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Мини-скульптура<br>“Oh my deer”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">690&nbsp;руб</p>
+                <p class="spec__price-noactul">990&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+            </article>
+          </li>
+
+          <li class="spec__item spec__item-b spec__item-5">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 10 000
+            </span>
+            <img class="card__global-img spec__img" src="images/spec_offer/sofa-z-85.png" alt="Диван вел-флок Z-85">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Диван вел-флок<br>“Z-85”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">22&nbsp;990&nbsp;руб</p>
+                <p class="spec__price-noactul">32&nbsp;990&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+            </article>
+          </li>
+
+          <li class="spec__item spec__item-6">
+            <article class="card">
+            <span class="spec__item-discount">
+              - 700
+            </span>
+            <img class="card__global-img spec__img" src="images/spec_offer/clock-h18.png" alt="Термометр + гидрометр H-18">
+            <div class="spec__hight-item-info-wrap">
+              <h3 class="card__global-name">Термометр + гидрометр “H-18”</h3>
+              <div class="spec__price-wrap">
+                <p class="spec__price-actul">1&nbsp;390&nbsp;руб</p>
+                <p class="spec__price-noactul">2&nbsp;090&nbsp;руб</p>
+              </div>
+              <button class="spec__btn btn-global-border">Купить</button>
+            </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section hight">
+      <div class="container">
+        <h2 class="global-page">Высокий рейтинг</h2>
+        <ul class="hight__rating-list">
+
+
+
+          <li class="hight__item hight__item-1">
+            <article class="card">
+              <span class="star-global">
+                5,0
+              </span>
+              <img class="card__global-img" src="images/sofa/R-94.png" alt="диван кожаный r-94">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван кожаный<br>“R-94”</h3>
+                <p class="card__global-price">94&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+
+          <li class="hight__item hight__item-2">
+            <article class="card">
+              <span class="star-global">
+                4,9
+              </span>
+              <img class="card__global-img" src="images/sofa/T-75.png" alt="диван t-75">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван апартековый<br>“T-75”</h3>
+                <p class="card__global-price">69&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+          <li class="hight__item hight__item-3">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/D-31.png" alt="диван d-31">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван тканевый<br>“D-31”</h3>
+                <p class="card__global-price">28&nbsp;490&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+          <li class="hight__item hight__item-4">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/Y-68.png" alt="диван y-68">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван велюровый<br>“Y-68”</h3>
+                <p class="card__global-price">22&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+          <li class="hight__item hight__item-5">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/W-95.png" alt="диван w-95">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван из шинила<br>“W-95”</h3>
+                <p class="card__global-price">22&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+          <li class="hight__item hight__item-6">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/G-41.png" alt="диван g-41">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван флоковый<br>“G-41”</h3>
+                <p class="card__global-price">17&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+          <li class="hight__item hight__item-7">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/V-43.png" alt="диван v-43">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван шиниловый<br>“V-43”</h3>
+                <p class="card__global-price">19&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+
+          <li class="hight__item hight__item-8">
+            <article class="card">
+              <span class="star-global">
+                4,8
+              </span>
+              <img class="card__global-img" src="images/sofa/S-99.png" alt="диван s-99">
+              <div class="card__info-wrap">
+                <h3 class="card__global-name">Диван велюровый<br>“S-99”</h3>
+                <p class="card__global-price">19&nbsp;990&nbsp;руб</p>
+                <button class="card__global-btn btn-global-border">Купить</button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section oxford">
+      <div class="container">
+        <div class="oxford__wrap">
+          <h2 class="oxford__page">Оксфорд 1950</h2>
+          <p class="oxford__text">Новая коллекция изысканных кресел</p>
+          <button class="oxford__btn btn-global-bcg">Ознакомится</button>
+        </div>
+      </div>
+    </section>
+    <section class="section category">
+      <div class="container">
+        <h2 class="global-page">
+          Топ категории
+        </h2>
+        <ul class="category__list">
+          <li class="category__item tc-item-1">
+            <div class="category__item-card-wrap">
+              <div class="category__item-wrap-top">
+                <div class="category__list-item-top">
+                  <a class="category__item-links link-anim-grey" href="#">Прямые</a>
+                  <a class="category__item-links link-anim-grey" href="#">Угловые</a>
+                  <a class="category__item-links link-anim-grey" href="#"> Модульные</a>
+                </div>
+                <div class="category__wrap-name-link">
+                  <h3 class="category__item-name">Диваны</h3>
+                  <a class="category__name-link" href="#">
+                    <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_933)">
+                        <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                        <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clippath>
+                          <rect width="22" height="22" fill="none" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <picture>
+                <img class="category__images category__images-1" src="images/top-category/sofa-1920.png"
+                  alt="диван">
+              </picture>
+              <a href="#" class="category__item-wrap-bottom">
+                <span class="global-link-arrow">В каталог</span>
+
+                <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_933)">
+                    <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                    <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clippath>
+                      <rect width="22" height="22" fill="none" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="category__item tc-item-2">
+            <div class="category__item-card-wrap">
+              <div class="category__item-wrap-top">
+                <div class="category__list-item-top">
+                  <a class="category__item-links link-anim-grey" href="#">Мягкие</a>
+                  <a class="category__item-links link-anim-grey" href="#">Кресла-кровати</a>
+                </div>
+                <div class="category__wrap-name-link">
+                  <h3 class="category__item-name">Кресла</h3>
+                  <a class="category__name-link" href="#">
+                    <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_933)">
+                        <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                        <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clippath>
+                          <rect width="22" height="22" fill="none" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <picture>
+                <source srcset="images/top-category/armchair-1920.png" media="(max-width:550px)">
+                <source srcset="images/top-category/armchair-1024.png" media="(max-width:1024px)">
+                <img class="category__images category__images-2" src="images/top-category/armchair-1920.png"
+                  alt="Кресла">
+              </picture>
+              <a href="#" class="category__item-wrap-bottom">
+                <span class="global-link-arrow">В каталог</span>
+
+                <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_933)">
+                    <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                    <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clippath>
+                      <rect width="22" height="22" fill="none" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="category__item tc-item-3">
+            <div class="category__item-card-wrap">
+              <div class="category__item-wrap-top">
+                <div class="category__list-item-top">
+                  <a class="category__item-links link-anim-grey" href="#">Односпальные</a>
+                  <a class="category__item-links link-anim-grey" href="#">Двуспальные</a>
+                </div>
+                <div class="category__wrap-name-link">
+                  <h3 class="category__item-name">Кровати</h3>
+                  <a class="category__name-link" href="#">
+                    <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_933)">
+                        <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                        <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clippath>
+                          <rect width="22" height="22" fill="none" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <picture>
+                <source srcset="images/top-category/bed-1920.png" media="(max-width:550px)">
+                <source srcset="images/top-category/bed-1024.png" media="(max-width:1024px)">
+                <img class="category__images category__images-3" src="images/top-category/bed-1920.png"
+                  alt="Кровати">
+              </picture>
+              <a href="#" class="category__item-wrap-bottom">
+                <span class="global-link-arrow">В каталог</span>
+
+                <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_933)">
+                    <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                    <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clippath>
+                      <rect width="22" height="22" fill="none" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="category__item tc-item-4">
+            <div class="category__item-card-wrap">
+              <div class="category__item-wrap-top">
+                <div class="category__list-item-top">
+                  <a class="category__item-links link-anim-grey" href="#">Тумбы</a>
+                  <a class="category__item-links link-anim-grey" href="#">Комоды</a>
+                </div>
+                <div class="category__wrap-name-link">
+                  <h3 class="category__item-name">Тумбы и&nbsp;комоды</h3>
+                  <a class="category__name-link" href="#">
+                    <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_933)">
+                        <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                        <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clippath>
+                          <rect width="22" height="22" fill="none" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <picture>
+                <source srcset="images/top-category/comod-1920.png" media="(max-width:550px)">
+                <source srcset="images/top-category/comod-1024.png" media="(max-width:1024px)">
+                <img class="category__images category__images-4" src="images/top-category/comod-1920.png"
+                  alt="тумбы и комоды">
+              </picture>
+              <a href="#" class="category__item-wrap-bottom">
+                <span class="global-link-arrow">В каталог</span>
+
+                <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_933)">
+                    <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                    <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clippath>
+                      <rect width="22" height="22" fill="none" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="category__item tc-item-5">
+            <div class="category__item-card-wrap">
+              <div class="category__item-wrap-top">
+                <div class="category__list-item-top">
+                  <a class="category__item-links link-anim-grey" href="#">Деревянные</a>
+                  <a class="category__item-links link-anim-grey" href="#">Металлокаркас</a>
+                </div>
+                <div class="category__wrap-name-link">
+                  <h3 class="category__item-name">Стулья</h3>
+                  <a class="category__name-link" href="#">
+                    <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_933)">
+                        <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                        <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clippath>
+                          <rect width="22" height="22" fill="none" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <picture>
+                <source srcset="images/top-category/chair-1920.png" media="(max-width:550px)">
+                <source srcset="images/top-category/chair-768.png" media="(max-width:910px)">
+                <source srcset="images/top-category/chair-1024.png" media="(max-width:1024px)">
+                <img class="category__images category__images-5" src="images/top-category/chair-1920.png"
+                  alt="стулья">
+              </picture>
+              <a href="#" class="category__item-wrap-bottom">
+                <span class="global-link-arrow">В каталог</span>
+
+                <svg class="svg-anim-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_933)">
+                    <circle cx="11" cy="11" r="10" fill="none" stroke="#A65CF0" stroke-width="2" />
+                    <path d="M9.625 7.5625L13.0625 11L9.625 14.4375" stroke="#A65CF0" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clippath>
+                      <rect width="22" height="22" fill="none" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="section useful">
+      <div class="container">
+        <h2 class="global-page">Полезное</h2>
+        <ul class="useful__list">
+          <li class="useful__card useful__card-1">
+            <img class="useful-card-img" src="images/useful/useful-1.png" alt="белая комната с деревяным стелажом в стиле минимализм">
+            <div class="useful__card-wrap">
+              <h3 class="useful__card-text">И&nbsp;нет сомнений, что сделанные на&nbsp;базе интернет-аналитики выводы
+                представляют собой не&nbsp;что иное?</h3>
+              <a href="#" class="useful__btn btn-global-border">Читать</a>
+            </div>
+          </li>
+          <li class="useful__card useful__card-2">
+
+            <img class="useful-card-img" src="images/useful/useful-2.png" alt="чайный столик в белой комнате с растениями">
+
+            <div class="useful__card-wrap">
+              <h3 class="useful__card-text">Как принято считать, некоторые особенности приносят несомненную пользу
+                обществу?</h3>
+              <a href="#" class="useful__btn btn-global-border">Читать</a>
+            </div>
+          </li>
+          <li class="useful__card useful__card-3">
+
+            <img class="useful-card-img" src="images/useful/useful-3.png" alt="1000 листник в кувшине">
+
+            <div class="useful__card-wrap">
+              <h3 class="useful__card-text">Ясность нашей позиции очевидна: укрепление и&nbsp;развитие внутренней
+                структуры?</h3>
+              <a href="#" class="useful__btn btn-global-border">Читать</a>
+            </div>
+          </li>
+          <li class="useful__card useful__card-4">
+
+            <img class="useful-card-img" src="images/useful/useful-4.png" alt="кухня белая, в совремнным дизайном">
+
+            <div class="useful__card-wrap">
+              <h3 class="useful__card-text">Прежде всего, консультация с&nbsp;широким активом однозначно фиксирует
+                необходимость распределения?</h3>
+              <a href="#" class="useful__btn btn-global-border">Читать</a>
+            </div>
+          </li>
+          <li class="useful__card useful__card-5">
+            <img class="useful-card-img" src="images/useful/useful-5.png" alt="стол с растением">
+            <div class="useful__card-wrap">
+              <p class="useful__card-text">Как принято считать, некоторые особенности приносят несомненную пользу
+                обществу?</p>
+              <a href="#" class="useful__btn btn-global-border">Читать</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section contact">
+      <div class="container">
+        <div class="contact__block">
+          <form class="contact__form">
+            <h2 class="global-page contact__page">
+              Мы&nbsp;всегда вам рады!
+            </h2>
+            <p class="contact__text">
+              Безусловно, новая модель организационной деятельности в&nbsp;значительной степени обусловливает важность
+              распределения внутренних резервов и&nbsp;ресурсов.
+            </p>
+            <label class="contact__label">
+              <input class="contact__input input-animation-area" placeholder="Как вас зовут?" type="text" required>
+            </label>
+            <label class="contact__label">
+              <input class="contact__input input-animation-area" placeholder="Ваш телефон" type="tel" required>
+            </label>
+            <label class="contact__label">
+              <input class="contact__input input-animation-area" placeholder="Ваш e-mail" type="email" required>
+            </label>
+
+            <button class="contact__btn btn-global-bcg" type="submit" value="Отправить"> Отправить</button>
+            <label class="contact__label-checkbox">
+              <input class="contact__input-checkbox" type="checkbox">
+              <span class="contact__custom-checkbox"></span>
+              <span class="contact__checkboch-text">Принимаю</span>
+              <a class="contact__checkbox-link" href="#">пользовательское соглашение</a>
+            </label>
+          </form>
+          <div class="contact__img">
+            <picture>
+              <source srcset="images/contact/contact-1024.webp" media="(max-width:850px)">
+              <img src="images/contact/contact-1920.webp" alt="Красивая картинка">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__wrap">
+        <div class="footer__social">
+          <img class="footer__logo" src="images/svg/logo.svg" alt="логотип садитесь пожалуйста">
+          <div class="footer__icon-wrap">
+            <a class="footer__link-icon" href="#"  aria-label="одноклассники">
+              <svg class="footer__icon-svg icon-ok" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="ok">
+                  <path
+                    d="M12.8527 9.99062C12.8527 11.2273 13.8552 12.2299 15.0919 12.2299C16.3286 12.2299 17.3311 11.2273 17.3311 9.99062C17.3311 8.75396 16.3286 7.7514 15.0919 7.7514C13.8552 7.7514 12.8527 8.75396 12.8527 9.99062Z"
+                    fill="#999999" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71572 0 0 6.71573 0 15C0 23.2843 6.71572 30 15 30ZM9.67501 9.99055C9.67501 6.99892 12.1002 4.57364 15.0919 4.57364C18.0836 4.57364 20.5088 6.99892 20.5088 9.99055C20.5088 12.9822 18.0836 15.4077 15.0919 15.4077C12.1002 15.4077 9.67501 12.9822 9.67501 9.99055ZM20.5412 18.194C20.4724 18.2491 19.1729 19.2761 17.0043 19.7179L20.2777 22.9622C20.8534 23.5369 20.854 24.4695 20.2793 25.0451C19.7046 25.6207 18.7722 25.6216 18.1964 25.0467L15.0184 21.952L12.1319 25.0268C11.8429 25.3266 11.4575 25.4774 11.0716 25.4774C10.7035 25.4774 10.3351 25.3404 10.0493 25.0648C9.46372 24.5001 9.44677 23.5677 10.0114 22.9822L13.1185 19.735C10.8891 19.3036 9.53591 18.2499 9.46622 18.194C8.83165 17.6851 8.72971 16.7581 9.23862 16.1235C9.74746 15.4889 10.6744 15.387 11.3091 15.8958C11.3225 15.9067 12.7378 16.9699 15.0183 16.9715C17.2989 16.9699 18.6849 15.9067 18.6983 15.8958C19.333 15.387 20.2599 15.4889 20.7688 16.1235C21.2777 16.7581 21.1757 17.6851 20.5412 18.194Z"
+                    fill="#999999" />
+                </g>
+              </svg>
+            </a>
+            <a class="footer__link-icon" href="#"  aria-label="в контакте">
+              <svg class="footer__icon-svg icon-vk" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="vk">
+                  <path
+                    d="M15 0C6.71601 0 0 6.7157 0 15C0 23.2843 6.71601 30 15 30C23.284 30 30 23.2843 30 15C30 6.7157 23.284 0 15 0ZM22.6088 16.6223C23.3079 17.3052 24.0476 17.9478 24.6752 18.7013C24.9532 19.0346 25.2153 19.3792 25.4148 19.7669C25.6996 20.3196 25.4425 20.9257 24.9477 20.9586L21.8747 20.958C21.081 21.0236 20.4494 20.7035 19.9169 20.1609C19.4919 19.7285 19.0975 19.2666 18.6881 18.8194C18.5208 18.6359 18.3447 18.4631 18.1347 18.3272C17.7158 18.0546 17.3518 18.1381 17.1118 18.5758C16.8672 19.0211 16.8114 19.5146 16.788 20.0102C16.7546 20.7348 16.5361 20.9242 15.809 20.9583C14.2554 21.031 12.7814 20.7953 11.4114 20.0121C10.2028 19.3212 9.26731 18.3462 8.45217 17.2423C6.86486 15.0902 5.64921 12.7283 4.55693 10.2985C4.3111 9.7513 4.49095 9.45852 5.09463 9.44716C6.0976 9.42783 7.10056 9.43028 8.10353 9.44624C8.51171 9.45268 8.78179 9.68624 8.93862 10.0714C9.48061 11.4049 10.1451 12.6737 10.9777 13.8503C11.1996 14.1637 11.4261 14.4761 11.7486 14.6974C12.1047 14.9417 12.376 14.861 12.5438 14.4635C12.6513 14.2109 12.6976 13.9409 12.7209 13.6702C12.8007 12.743 12.8102 11.8162 12.6721 10.8927C12.5862 10.3148 12.2612 9.94158 11.6851 9.83233C11.3917 9.77678 11.4347 9.66813 11.5774 9.50056C11.8251 9.21084 12.0571 9.03161 12.5208 9.03161L15.9928 9.031C16.5401 9.13841 16.6628 9.38394 16.7371 9.93514L16.7402 13.7936C16.7337 14.0069 16.8473 14.6391 17.2303 14.7787C17.5372 14.88 17.7397 14.6339 17.9233 14.4396C18.7559 13.556 19.3492 12.5131 19.8804 11.4338C20.1149 10.9577 20.3171 10.4652 20.5136 9.97166C20.6596 9.60675 20.8868 9.42721 21.2986 9.43335L24.642 9.43734C24.7406 9.43734 24.8406 9.43826 24.9382 9.45514C25.5017 9.55151 25.6561 9.79396 25.4817 10.3436C25.2074 11.2073 24.6743 11.9266 24.1531 12.6479C23.5946 13.4201 22.9989 14.1652 22.4458 14.9408C21.9376 15.6497 21.9778 16.0066 22.6088 16.6223Z"
+                    fill="#999999" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__list-wrap">
+          <div class="footer__block-content-wrap">
+            <h2 class="footer__pages">
+              О нас
+            </h2>
+            <ul class="footer__list-link">
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  О компании
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Блог
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block-content-wrap">
+            <h2 class="footer__pages">
+              Услуги
+            </h2>
+            <ul class="footer__list-link">
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Доставка
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Рассрочка и кредит
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Сборка и установка
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block-content-wrap">
+            <h2 class="footer__pages">
+              Связь с нами
+            </h2>
+            <ul class="footer__list-link">
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Обратная связь
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block-content-wrap">
+            <h2 class="footer__pages">
+              Сотрудничество
+            </h2>
+            <ul class="footer__list-link">
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Поставщикам
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Оптовикам
+                </a>
+              </li>
+              <li class="footer__items">
+                <a class="footer__link link-anim-grey" href="#">
+                  Карьера
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer__sdp">SDP® 2011-2021</div>
+  </footer>
+</body>
+
+</html>
