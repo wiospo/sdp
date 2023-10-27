@@ -1,0 +1,104 @@
+.oxford {
+  background: url(../images/oxford.jpeg);
+  background-repeat: no-repeat;
+  padding-top: 155px;
+  padding-bottom: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.oxford__page {
+  color: #D5B986;
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 0;
+}
+
+.oxford__wrap {
+  max-width: 505px;
+}
+
+.oxford__text {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin:0 0 47px 0;
+}
+
+.oxford__btn {
+  border: none;
+  display: block;
+  border-radius: 10px;
+  background: $primary;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 22px 37px;
+}
+
+
+
+@media(max-width:710px){
+
+  .oxford {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .oxford__page {
+    font-size: 44px;
+  }
+
+  .oxford__text {
+    margin-bottom: 25px;
+    font-size: 34px;
+  }
+}
+
+
+
+
+@media(max-width:450px) {
+  .oxford__wrap {
+
+
+    max-width: 187px;
+  }
+
+  .oxford {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .oxford__page {
+    font-size: 24px;
+  }
+
+  .oxford__text {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width:320px) {
+  .oxford {
+    margin-bottom: 162px;
+    padding-bottom: 87px;
+    position: relative;
+  }
+
+
+
+  .oxford__btn {
+    bottom: -91px;
+    width: 296px;
+    position: absolute;
+  }
+}

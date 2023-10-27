@@ -1,0 +1,562 @@
+/*background-btn*/
+.btn-global-bcg {
+  outline: none;
+  transition: background-color 0.3s, outline 0.3s, color 0.3s ease-in-out;
+}
+
+
+
+.btn-global-bcg:hover {
+
+  background-color: $primary_light;
+}
+
+.btn-global-bcg:focus:not(:hover) {
+  outline: 2px solid $primary_shade;
+  outline-offset: -2px;
+}
+
+.btn-global-bcg:active {
+  background-color: $primary_shade;
+}
+
+.btn-global-bcg:disabled {
+  background-color: $grey_md;
+  color: $grey_color;
+}
+
+
+
+
+/*border-btn*/
+.btn-global-border {
+  outline: none;
+  transition: background-color 0.3s, color 0.3s, outline 0.3s ease-in-out;
+}
+
+.btn-global-border:hover {
+  color: white;
+  background-color: $primary;
+}
+
+.btn-global-border:focus:not(:hover) {
+  color: white;
+  outline: 2px solid $primary;
+  outline-offset: -2px;
+  background-color: $primary_light;
+}
+
+.btn-global-border:active {
+  background-color: $primary_shade;
+}
+
+
+
+
+/**svg arrow**/
+.global-link-arrow {
+  transition: color 0.3s, border-color 0.3s ease-in-out;
+}
+
+.svg-anim-arrow path {
+  transition: stroke 0.3s ease-in-out;
+}
+
+.svg-anim-arrow circle {
+  transition: stroke 0.3s, fill 0.3s ease-in-out;
+}
+
+.category__item-wrap-bottom:hover .global-link-arrow {
+  border-color: $primary;
+}
+
+
+.category__item-wrap-bottom:hover .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary;
+  }
+}
+
+.category__item-wrap-bottom:focus:not(:hover) .global-link-arrow {
+  border-color: $primary;
+
+}
+
+.category__item-wrap-bottom:focus:not(:hover) .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+  circle {
+    fill: $primary_light;
+  }
+}
+
+
+.category__item-wrap-bottom:active .global-link-arrow {
+  color: $primary_shade;
+  border-color: $primary_shade;
+}
+
+.category__item-wrap-bottom:active .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_shade;
+    stroke: $primary_shade;
+  }
+}
+
+.category__name-link:hover .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary;
+  }
+}
+
+.category__name-link:focus:not(:hover) .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_light;
+  }
+}
+
+.category__name-link:active .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_shade;
+    stroke: $primary_shade;
+
+  }
+}
+
+
+.catalog__hero-link:hover .global-link-arrow {
+  border-color: $primary;
+}
+
+
+.catalog__hero-link:hover .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary;
+  }
+}
+
+.catalog__hero-link:focus:not(:hover) .global-link-arrow {
+  border-color: $primary;
+
+}
+
+.catalog__hero-link:focus:not(:hover) .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+  circle {
+    fill: $primary_light;
+  }
+}
+
+
+.catalog__hero-link:active .global-link-arrow {
+  color: $primary_shade;
+  border-color: $primary_shade;
+}
+
+.catalog__hero-link:active .svg-anim-arrow {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_shade;
+    stroke: $primary_shade;
+  }
+}
+
+
+/*arrow-searh*/
+
+.svg-anim-arrow-search path {
+  transition: stroke 0.3s ease-in-out;
+}
+
+.svg-anim-arrow-search circle {
+  transition: stroke 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+}
+
+
+.header__search-btn:hover .svg-anim-arrow-search {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary;
+  }
+}
+
+.header__search-btn:focus:not(:hover) {
+  outline: none;
+}
+
+.header__search-btn:focus:not(:hover) .svg-anim-arrow-search {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_light;
+  }
+}
+
+.header__search-btn:active .svg-anim-arrow-search:active {
+  path {
+    stroke: white;
+  }
+
+  circle {
+    fill: $primary_shade;
+    stroke: $primary_shade;
+  }
+}
+
+
+
+
+/*header-icon*/
+.header__user path,
+.header__basket path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.header__user-svg,
+.header__basket-svg {
+  transition: background-color 0.3s, box-shadow 0, 3s ease-in-out;
+}
+
+.header__user:hover .header__user-svg path,
+.header__basket:hover .header__basket-svg path {
+  fill: $primary_light;
+}
+
+
+.header__user:focus:not(:hover) .header__user-svg {
+  fill: white;
+  box-shadow: 4px 5px $primary_light, -4px 5px $primary_light, 4px -4px $primary_light, -4px -4px $primary_light;
+}
+
+.header__user:focus:not(:hover) {
+  outline: none;
+  background-color: $primary_light;
+}
+
+.header__basket:focus:not(:hover) {
+  outline: none;
+}
+
+.header__basket:focus:not(:hover) .header__basket-svg {
+  fill: white;
+  background-color: $primary_light;
+  box-shadow: 4px 4px $primary_light, -18px 4px $primary_light, 4px -4px $primary_light, -18px -4px $primary_light;
+}
+
+.header__user:focus:not(:hover) .header__user-svg path,
+.header__basket:focus:not(:hover) .header__basket-svg path {
+  fill: white;
+}
+
+.header__basket:active .header__basket-svg path,
+.header__user:active .header__user-svg path {
+  fill: $primary_shade;
+}
+
+/*head-item*/
+.header__menu-item-link {
+  position: relative;
+  outline: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__menu-item-link:hover {
+  color: $primary;
+}
+
+.header__menu-item-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+  right: -10px;
+  background-color: $primary_light;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+  outline: none;
+}
+
+.header__menu-item-link:focus:not(:hover)::after {
+  opacity: 1;
+}
+
+.header__menu-item-link:active {
+  color: $primary_shade;
+}
+
+.link-anim-grey {
+  z-index: 2;
+  position: relative;
+  outline: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.link-anim-grey:hover {
+  color: $primary;
+}
+
+.link-anim-grey::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+  right: -10px;
+  background-color: $primary_light;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.link-anim-grey:focus:not(:hover) {
+  color: $primary_shade;
+}
+
+.link-anim-grey:focus:not(:hover)::after {
+  opacity: 1;
+}
+
+.link-anim-grey:active {
+  color: $primary_shade;
+}
+
+/*tel-header*/
+.svg-tel path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.wrap-tel {
+  transition: color 0.3s background-color 0.3s ease-in-out;
+}
+
+.wrap-tel:hover .svg-tel path {
+  fill: $secondary_light;
+}
+
+.wrap-tel:hover {
+  transition: color 0.3s ease-in-out;
+  color: $secondary_light;
+}
+
+.wrap-tel:focus:not(:hover) {
+  background-color: $bone;
+}
+
+.wrap-tel:active .svg-tel path {
+  fill: $secondary_shade;
+}
+
+.wrap-tel:active {
+  color: $secondary_shade;
+}
+
+/*footer__svg-icon*/
+.footer__link-icon{
+  outline: 0;
+}
+.footer__link-icon .footer__icon-svg path  {
+  transition: fill 0.3s ease-in-out;
+}
+
+
+.footer__icon-svg path {
+  transition: outline 0.3s, background-color 0.3s ease-in-out;
+}
+
+.footer__link-icon:hover .footer__icon-svg path {
+  fill: $primary;
+}
+
+.footer__link-icon:focus:not(:hover) .footer__icon-svg path {
+  fill: $primary_light;
+}
+
+.footer__link-icon:focus:not(:hover) .footer__icon-svg {
+  outline: 3px solid $primary_light;
+  background-color: $primary_light;
+}
+
+.footer__link-icon:focus:not(:hover) .footer__icon-svg path {
+  fill: white;
+}
+
+.footer__link-icon:active .footer__icon-svg path {
+  fill: $primary_shade;
+}
+
+
+
+/*label-input*/
+.input-animation-search {
+  outline: none;
+  border: 2px solid transparent;
+  transition: border-color 0.3s, background-color 0.3s ease-in-out;
+}
+
+.input-animation-search:hover {
+  background-color: $grey_md;
+}
+
+.input-animation-search:focus:not(:hover) {
+    border: 2px solid $primary;
+}
+
+.input-animation-search:focus-within+.header__form-search-lope path {
+  fill: $primary;
+  transition: fill 0.3s ease-in-out;
+}
+
+
+.input-animation-area {
+  outline: none ;
+
+  transition: border-color 0.3s, background-color 0.3s ease-in-out;
+}
+
+.input-animation-area:hover {
+  background-color: $grey_md;
+}
+
+.input-animation-area:focus:not(:hover) {
+  border: 1px solid $primary;
+  outline-offset: -1px;
+  background-color: $pink_light;
+}
+
+.input-animation-area:focus-within {
+  border: 1px solid $green_input;
+  background-color: $grey_light;
+}
+
+
+.input-animation-filter {
+  transition: background-color 0.3s, border 0.3s ease-in-out;
+}
+
+.input-animation-filter:hover {
+  border: 1px solid $primary;
+
+}
+
+.input-animation-filter:focus:not(:hover) {
+  border: 1px solid $primary;
+  background-color: $pink_violet;
+}
+
+.input-animation-filter:focus-within {
+  border: 1px solid $primary_shade;
+}
+
+/*catalog__number-item*/
+.catalog__number-item-link {
+  transition: border-color 0.3s, color 0.3s, background-color 0.3s ease-in-out;
+}
+
+.catalog__number-item-link:hover {
+  color: white;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.catalog__number-item-link:focus:not(:hover) {
+  background-color: $primary_light ;
+  color: white;
+  border-color: $primary;
+}
+
+.catalog__number-item-link:active {
+  color: white;
+  background-color: $primary_shade ;
+  border-color: $primary_shade;
+}
+
+/*d-31*/
+
+.product-card__header__basket:hover {
+  color: $primary_light;
+}
+
+.product-card__header__basket:focus {
+  color: $primary_shade;
+  outline: 1px solid $primary_shade;
+}
+
+
+
+.breadcrumbs__link:hover {
+  color: $primary_shade;
+
+}
+
+.breadcrumbs__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+  right: -10px;
+  background-color: $primary_light;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+  color: white;
+
+}
+
+.breadcrumbs__link:focus::after {
+  opacity: 1;
+}
+
+.breadcrumbs__link:focus {
+  color: white;
+  outline: none;
+}
+
+.breadcrumbs__link:active {
+  color: $primary_shade;
+}
+
+.contact__checkbox-link:focus {
+  outline: 1px solid $primary;
+}
+.contact__input-checkbox:focus+.contact__custom-checkbox{
+  border: 2px solid $primary;
+}

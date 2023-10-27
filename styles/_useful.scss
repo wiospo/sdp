@@ -1,0 +1,147 @@
+
+
+.useful__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.useful__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: $grey_light;
+}
+
+.useful__card-wrap {
+  padding: 30px 27px 30px 30px;
+  display: flex;
+  min-height: 250px;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.useful__card-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 38px 0;
+}
+
+.useful__btn {
+  color: $primary;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 17px 35px;
+  border-radius: 10px;
+  border: 2px solid $primary;
+  max-width: 128px;
+}
+
+
+.useful__card-1 {
+  grid-column: span 6;
+}
+
+.useful__card-2 {
+  grid-column: span 6;
+}
+
+.useful__card-3 {
+  display: none;
+}
+
+.useful__card-4 {
+  display: none;
+}
+
+.useful__card-5 {
+  display: none;
+}
+
+.useful__card-img {
+  border-radius: 10px 10px 0px 0px;
+
+
+}
+
+
+
+
+@media(max-width:1380px) {
+  .useful__list {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .useful__card-3 {
+    display: flex;
+    grid-column: span 3;
+  }
+
+  .useful__card-2 {
+    grid-column: span 3;
+  }
+
+  .useful__card-1 {
+    grid-column: span 3;
+  }
+
+
+
+  .useful__card-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:850px) {
+  .useful__list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .useful__card-text {
+    margin-bottom: 26px;
+  }
+
+  .useful__card-3 {
+    display: none;
+  }
+}
+
+@media(max-width:710px) {
+
+  .useful__card {
+    min-height: 456px;
+  }
+
+  .useful__btn {
+    padding-top: 17px;
+  }
+}
+
+@media(max-width:500px) {
+  .useful__list {
+    display: block;
+    //grid-template-columns: repeat(6, minmax(36px, 1fr));
+  }
+
+  .useful__card-3,
+  .useful__card-4,
+  .useful__card-5 {
+    display: flex;
+  }
+
+  .useful__card:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}

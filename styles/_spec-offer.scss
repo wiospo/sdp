@@ -1,0 +1,184 @@
+.spec__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 32px;
+  grid-template-rows: 511px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.spec__item-1,
+.spec__item-3 {
+  grid-column: span 3;
+}
+
+
+.spec__item:last-child {
+  margin-right: 0;
+}
+
+
+
+.spec__item-b {
+  grid-column: span 6;
+  width: 100%;
+  max-width: 624px;
+  position: relative;
+}
+
+.spec__item-b::after {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 230px;
+  height: 107px;
+  background-image: url(../images/spec_offer/sofa-z-44-rengen.png);
+  background-repeat: no-repeat;
+}
+
+
+
+.spec__item-4,
+.spec__item-5,
+.spec__item-6 {
+  display: none;
+}
+
+.spec__item-discount {
+  width: 92px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background: url(../images/svg/spec-item-discount.svg);
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 7px;
+  padding-left: 19px;
+}
+
+
+
+.spec__hight-item-info-wrap {
+  padding: 0 30px 30px 30px;
+}
+
+.spec__btn {
+  color: $primary;
+  font-size: 16px;
+  font-style: normal;
+  border: none;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 17px 33px;
+  border-radius: 10px;
+  border: 2px solid $primary;
+}
+
+
+
+.spec__price-wrap {
+
+  margin-bottom: 23px;
+  align-items: flex-end;
+}
+
+.spec__price-wrap p {
+  display: inline;
+}
+
+.spec__price-actul {
+  color: $secondary;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-right: 30px;
+}
+
+.spec__price-noactul {
+  color: $grey_color;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration: line-through;
+}
+
+
+
+
+@media(max-width:1240px) {
+
+  .spec__item-b {
+    grid-column: none;
+  }
+  .spec__item-1,
+  .spec__item-2,
+.spec__item-3{
+  grid-column: span 4;
+}
+  .spec__item-b::after {
+    display: none;
+  }
+
+
+}
+
+
+@media(max-width:900px) {
+  .spec__list {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(6, minmax(36px, 1fr));
+
+  }
+  .spec__item-1,
+  .spec__item-2{
+    grid-column: span 3;
+  }
+
+  .spec__item-3 {
+    display: none;
+  }
+}
+
+/*320*/
+@media(max-width:710px) {
+  .spec__hight-item-info-wrap .card__global-name {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+}
+
+@media(max-width:576px) {
+  .spec__list {
+    display: grid;
+    gap: 24px 16px;
+    grid-template-columns: repeat(3, minmax(36px, 1fr));
+    grid-template-rows: repeat(6, 511px);
+    grid-template-areas: none;
+
+  }
+
+  .spec__item-1,
+  .spec__item-2,
+  .spec__item-3,
+  .spec__item-4,
+  .spec__item-5,
+  .spec__item-6 {
+    grid-column: span 3;
+    display: block;
+  }
+
+
+}
